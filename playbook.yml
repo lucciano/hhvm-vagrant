@@ -7,4 +7,18 @@
         - git
         - tmux
         - vim
+        - cmake
         - build-essential
+        - libboost-dev
+        - libboost-system-dev
+        - libboost-program-options-dev
+        - libboost-filesystem-dev
+        - libboost-context-dev
+        - libgoogle-glog-dev
+        - libmysqlclient-dev
+        - libmemcache-dev
+        - pkg-config
+
+    - git: repo=https://github.com/facebook/hhvm.git 
+           dest=/home/vagrant/hhvm 
+           force=yes
